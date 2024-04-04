@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+
+}
+
+#app{
+    height: 100vh;
+    overflow: auto;
+    background: linear-gradient(180deg, #009688 20%, #D8DBD5 20%);
+
+}
+#chat{
+    height: 100%;
+}
+#side-bar{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid var(--color-greyhover);
+}
+#main-chat{
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+.header, .toolbar{
+    height: 70px;
+    background-color: #EAEAEA;
+}
+.notification{
+    background-color: #8FDAFC;
+
+}
+#search{
+    height: 20px;
+}
+.notification{
+    height: 70px;
+}
+#contacts{
+    overflow: auto;
+    height: calc(100% - 160px);
+
+}
+#contact img{
+   width: 50px; 
+}
+
+#contact {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.chat-container{
+    height: calc(100% - 140px);
+    background-image: url(../images/mine.jpg);
+    overflow: auto;
+}
+
+.active{
+    color: red;
+}
+
+.msg{
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.sent{
+
+}
+.received{
+
+}
